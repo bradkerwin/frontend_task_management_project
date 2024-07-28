@@ -10,7 +10,9 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark p-2">
         <a class="navbar-brand" href="#">Your Task Manager</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" aria-controls="navbarNav" 
+        aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -39,7 +41,8 @@
         <div class="task_title mt-4 mb-4">
             <h3>Please Provide the Details of Your New Task Below</h3>
             <label for="title">What is the title of your new task?</label>
-            <input type="text" id="title" name="title" placeholder="Title" required>
+            <input type="text" id="title" name="title" placeholder="Title" 
+            required>
             <div class="invalid-feedback">
                 Required
             </div>
@@ -47,16 +50,20 @@
 
         <div class="priority mb-4">
             <p>What is the priorty level of this task?</p>
-            <input type="radio" id="low" name="priority" value="low" required="required">
+            <input type="radio" id="low" name="priority" value="low" 
+            required="required">
             <label for="low">Low</label>
             <br>
-            <input type="radio" id="medium" name="priority" value="medium" required="required">
+            <input type="radio" id="medium" name="priority" value="medium" 
+            required="required">
             <label for="medium">Medium</label>
             <br>
-            <input type="radio" id="high" name="priority" value="high" required="required">
+            <input type="radio" id="high" name="priority" value="high" 
+            required="required">
             <label for="high">High</label>
             <br>
-            <input type="radio" id="urgent" name="priority" value="urgent" required="required">
+            <input type="radio" id="urgent" name="priority" value="urgent" 
+            required="required">
             <label for="urgent">Urgent</label>
             <div class="invalid-feedback">
                 Required
@@ -72,11 +79,17 @@
         </div>
 
         <div class="additional_notes mb-4">
-            <label for="notes">(Optional) Please add any additional notes about your task here.</label>
+            <label for="notes">(Optional) Please add any additional notes about 
+            your task here.</label>
             <input type="text" id="notes" name="notes" placeholder="Notes">
         </div>
 
         <button type="submit">Submit</button>
     </form>
+
+    <footer class="footer mt-3">
+        &copy; 2024 Brad Kerwin. All rights reserved.
+    </footer>
+
 </body>
 </html>
