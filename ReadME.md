@@ -1,0 +1,1 @@
+This is my task management web page. There is a file leading to the home page, page to add a new task, view current tasks, register a new account, and log in. My basic layout was created in Figma. Attached is the link to my Figma project: https://www.figma.com/design/Gm6cpNsd32Qq2F3kPPmohP/Task-Management-Application?node-id=0-1&t=eYwEC4zXqQhckuwU-1
